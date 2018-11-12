@@ -36,7 +36,7 @@
 <body>
     <img src="/weixin_favicon.png" style="position: absolute; left: -9999px; opacity: 0; filter: alpha(opacity=0);">
 
-    <nav class="blue-grey darken-1">
+    <nav class="blue-grey darken-4">
     <div class="nav-wrapper">
         <a href="#" data-activates="main-menu" class="button-collapse">
             <i class="fa fa-navicon"></i>
@@ -95,7 +95,7 @@
                 
             </ul>
             <div>
-    <ul class="side-nav blue-grey darken-3" id="main-menu">
+    <ul class="side-nav blue-grey darken-1" id="main-menu">
         
         <li class="side-user">
             <div class="row">
@@ -163,7 +163,7 @@
         
     </ul>
 
-    <ul class="side-nav blue-grey darken-3" id="category-menu">
+    <ul class="side-nav blue-grey darken-1" id="category-menu">
     
 
             
@@ -244,7 +244,7 @@
 
             </div>
 
-            <time class="cyan-link-context" datetime="2018-11-12T05:16:21.275Z"><a href="/2018/11/12/hello-world/">2018-11-12</a></time>
+            <time class="teal-link-context" datetime="2018-11-12T05:16:21.275Z"><a href="/2018/11/12/hello-world/">2018-11-12</a></time>
 
             
 
@@ -264,7 +264,7 @@
     </li>
     
     
-        <li class="active blue-grey"><a href="/">1</a></li>
+        <li class="active blue-grey lighten-4"><a href="/">1</a></li>
     
     
     <li class="disabled">
@@ -285,7 +285,7 @@
   </div>
 
     </main>
-    <footer class="page-footer blue-grey darken-1 darken-1">
+    <footer class="page-footer blue-grey darken-3 darken-1">
     
     <div class="footer-container container">
         <div class="row">
@@ -338,7 +338,7 @@
     </div>
     
 
-    <div class="footer-copyright cyan-link-context">
+    <div class="footer-copyright teal-link-context">
         <div class="container">
             © 2018 我是老刘，大牛的牛, All rights reserved.
             <p class="right" style="margin-top: 0;">本博客由 <a href="https://hexo.io">Hexo</a> 强力驱动 | 主题 <a href="https://github.com/raytaylorlin/hexo-theme-raytaylorism">raytaylorism</a></p>
@@ -435,7 +435,7 @@
             $('li.tab a').hover(function() {
                 $(this).toggleClass('text-lighten-4');
             });
-            $('.indicator').addClass('teal lighten-2');
+            $('.indicator').addClass('black lighten-2');
 
             
             // 添加new标签
@@ -514,7 +514,7 @@
                             if (isMatch) {
                                 keywords.forEach(function(keyword) {
                                     var regS = new RegExp(keyword, "gi");
-                                    data_title = data_title.replace(regS, "<span class=\"search-keyword cyan lighten-2\">" + keyword + "</span>");
+                                    data_title = data_title.replace(regS, "<span class=\"search-keyword teal lighten-2\">" + keyword + "</span>");
                                 });
 
                                 str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
@@ -536,7 +536,7 @@
                                     // highlight all keywords
                                     keywords.forEach(function(keyword) {
                                         var regS = new RegExp(keyword, "gi");
-                                        match_content = match_content.replace(regS, "<span class=\"search-keyword cyan lighten-2\">" + keyword + "</span>");
+                                        match_content = match_content.replace(regS, "<span class=\"search-keyword teal lighten-2\">" + keyword + "</span>");
                                     });
 
                                     str += "<p class=\"search-result\">..." + match_content + "...</p>"
